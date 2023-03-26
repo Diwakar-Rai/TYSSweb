@@ -1,0 +1,107 @@
+.navbarContainer {
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+.navbarBody {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3%;
+  padding: 10px 0;
+}
+
+/*============================*\
+    #Navbar Menu
+\*============================*/
+
+.menuContainer {
+  flex-basis: 70%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  background-color: var(--base-secondary);
+  padding: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.menuContainer ul {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuContainer ul li a {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.menuContainer ul li a span:first-child {
+  background-color: var(--base-color);
+  height: 7px;
+  width: 7px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+.menuContainer aside button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 7px 20px;
+  font-size: 12px;
+}
+
+/*============================*\
+    #Navbar Shop
+\*============================*/
+
+.shop {
+  flex-basis: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop .shopChild:last-child {
+  border-radius: 50%;
+  background-color: var(--base-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px;
+}
+
+.shop .shopChild:last-child aside {
+  height: 2px;
+  width: 15px;
+  background-color: white;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.shop .shopChild:last-child aside:nth-child(2) {
+  width: 12px;
+}
+
+.shop .shopChild:last-child aside:last-child {
+  width: 9px;
+}
+
+/*============================*\
+    #Navbar Logo
+\*============================*/
+
+.logo {
+  flex-basis: 15%;
+}
+
+.logo img {
+  width: 100%;
+}

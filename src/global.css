@@ -1,0 +1,35 @@
+:root{
+    --base-color:#ed7501;
+    --base-secondary: #e6eefb;
+    --base-tertiary:#09c3ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: var(--base-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #181818;
+    text-transform: uppercase;
+}
+

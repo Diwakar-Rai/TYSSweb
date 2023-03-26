@@ -1,0 +1,131 @@
+.workflowMain {
+  background-color: var(--base-secondary);
+  padding: 50px 0;
+}
+
+.workflowBody {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflowLink {
+  margin: 15px 0;
+}
+
+.workflowLink a {
+  color: var(--base-color);
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.workflowHeader {
+  margin-bottom: 15px;
+}
+.workflowHeader h2 {
+  font-size: 45px;
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.workflowProducts {
+  display: flex;
+  margin: 50px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.productContainer {
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease;
+  position: relative;
+}
+
+.productContainer:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.7s ease;
+}
+
+.productIcon {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.productIcon div:first-child {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.productIcon div:last-child {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background-color: #efefef;
+  padding: 7px;
+  border-radius: 100%;
+  font-size: 10px;
+}
+
+.productHeader h3 {
+  font-size: 13px;
+  margin: 15px;
+}
+
+.productPara p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.lightBulb {
+  color: #09c3ff;
+}
+
+.magnify {
+  color: #266ff2;
+}
+
+.graph {
+  color: #fdc330;
+}
+
+.diverse {
+  color: #ff5151;
+}
+
+.workflowDots {
+  display: flex;
+  position: absolute;
+  top: 25%;
+    right: -12px;
+}
+
+.workflowDots span {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  margin-right: 3px;
+  display: block;
+}
+
+.workflowDots span:first-child {
+  background-color: var(--base-color);
+}
+.workflowDots span:nth-child(2) {
+  background-color: #fdc330;
+}
+.workflowDots span:nth-child(3) {
+  background-color: #fdc330b5;
+}

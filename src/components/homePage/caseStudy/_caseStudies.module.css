@@ -1,0 +1,138 @@
+.caseStudyMain{
+    padding: 50px 0 100px;
+}
+
+.caseStudyBody{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studyLeft{
+    flex-basis: 35%;
+}
+.studyRight{
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 3%;
+}
+
+/*==============================*\
+    # Study Left
+\*==============================*/
+
+.studyLink a{
+    color: var(--base-color);
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.studyLink{
+    margin-bottom: 15px;
+}
+
+.studyHeader h2{
+    font-size: 35px;
+}
+
+.studyHeader{
+    margin-bottom: 25px;
+}
+
+.studyPara p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.buttonSection{
+    margin: 25px 0;
+}
+
+.buttonSection button{
+    background-color: #fff;
+    border: 1px solid var(--base-color);
+    font-size: 13px;
+    margin: 0 15px 15px 0;
+    padding: 10px 15px;
+}
+
+.buttonSection button a{
+        text-transform: capitalize;
+        color: var(--base-color);
+}
+
+.buttonSection button:hover{
+    background-color: var(--base-color);
+}
+
+.buttonSection button:hover a{
+    color: #fff;
+}
+
+
+/*==============================*\
+    # Study Right
+\*==============================*/
+.caseStudyPic{
+    flex-basis: 45%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.caseStudyPic figure{
+    border-radius: 10px;
+    overflow: hidden;
+    height: inherit;
+}
+
+.caseStudyPic figure img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+
+.caseStudyPic:hover figure img{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+.caseStudyPic:first-child figure{
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+}
+
+.caseStudyPic:first-child figure img{
+    border-radius: inherit;
+}
+
+.casePicSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.casePicSec aside h3{
+    font-size: 13px;
+}
+
+.casePicSec aside a{
+    font-size: 12px;
+    color: var(--base-color);
+    font-weight: 500;
+}
+
+.caseStudyPic:last-child, .caseStudyPic:nth-child(3) {
+    height: 250px;
+}
+
+.caseStudyPic:last-child figure, .caseStudyPic:nth-child(3) figure{
+    height: inherit;
+}
+
+.caseStudyPic:last-child figure img, .caseStudyPic:nth-child(3) figure img{
+    height: inherit;
+}

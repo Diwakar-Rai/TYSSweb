@@ -1,0 +1,208 @@
+/*==============================*\
+    #Team Main
+\*==============================*/
+
+.teamMain {
+  background-color: #e6eefb;
+  padding: 50px 0;
+}
+
+.teamContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*==============================*\
+    #Upper card
+\*==============================*/
+
+.upperCard {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.cardContent {
+  flex-basis: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContent h3 {
+  font-size: 16px;
+}
+
+.cardIcon {
+  font-size: 40px;
+  color: var(--base-color);
+  display: grid;
+  place-content: center;
+  margin-right: 15px;
+}
+
+.cardContent:nth-child(2) {
+  border-right: 1px solid var(--base-color);
+  border-left: 1px solid var(--base-color);
+}
+
+.cardContent:nth-child(2) .cardIcon {
+  color: #ed7301af;
+}
+.cardContent:nth-child(3) .cardIcon {
+  color: #ed73015b;
+}
+
+.dotContainer {
+  background-color: #e6eefb;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  bottom: -7px;
+}
+
+.dotContainer span {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  border-radius: 10px;
+  background-color: #ed7301;
+  display: block;
+}
+
+.dot1{left:6%;}
+.dot2{left:38.5%;}
+.dot3{left:71%;}
+
+/*==============================*\
+    #Bottom Team
+\*==============================*/
+
+.bottomTeam {
+  padding: 100px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamPicContainer {
+  position: relative;
+  flex-basis: 50%;
+  top: -170px;
+}
+
+.teamDescContainer {
+  flex-basis: 50%;
+}
+
+.orangeBlob {
+  height: 350px;
+  width: 300px;
+  background-color: var(--base-color);
+  border-radius: 88% 50% 69% 50%;
+  opacity: 0.7;
+  position: absolute;
+  left: 20px;
+}
+
+.lightOrangeBlob {
+  height: 300px;
+  width: 350px;
+  background-color: var(--base-color);
+  border-radius: 84% 88% 69% 77%;
+  opacity: 0.5;
+  position: absolute;
+  top: 30px;
+}
+
+.dottedBlob {
+  height: 300px;
+  width: 350px;
+  border: 2px dotted #e6eefb;
+  border-radius: 84% 88% 69% 77%;
+  opacity: 0.7;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.person {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  position: absolute;
+}
+
+.person img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.person1 {
+  top: 150px;
+  left: 150px;
+}
+.person2 {
+  top: 50px;
+  left: 50px;
+}
+.person3 {
+  top: 200px;
+  left: 0px;
+}
+.person4 {
+  top: 50px;
+  left: 280px;
+}
+.person5 {
+  top: 280px;
+  left: 200px;
+}
+
+/*==============================*\
+    #Team Desc
+\*==============================*/
+
+.descLink a {
+  text-decoration: underline;
+  font-size: 12px;
+  color: var(--base-color);
+  font-weight: 500;
+}
+
+.descHeader h2 {
+  font-size: 35px;
+  width: 75%;
+  margin: 15px 0;
+}
+
+.descPara p {
+  font-size: 13px;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.desList ul {
+  margin-bottom: 15px;
+}
+
+.desList ul li {
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 7px 0;
+}
+
+.desList ul li span {
+  margin-right: 10px;
+}
+
+.desList ul li span:first-child {
+  color: var(--base-color);
+  display: grid;
+  place-content: center;
+}

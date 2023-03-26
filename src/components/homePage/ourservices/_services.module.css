@@ -1,0 +1,82 @@
+.servicesMain {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.servicesBody {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicesLink {
+  margin: 15px 0;
+}
+
+.servicesLink a {
+  color: var(--base-color);
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.servicesheader {
+  margin-bottom: 15px;
+}
+
+.servicesheader h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.servicesCarousel {
+  width: 100%;
+  margin: 15px 0 50px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(211, 211, 211, 0.565);
+}
+
+.carouselSec {
+  border: 1px solid rgba(211, 211, 211, 0.565);
+  padding: 30px;
+}
+
+.carouselIcon {
+  margin: 0 0 20px;
+  font-size: 60px;
+  color: var(--base-color);
+}
+
+.carouselHeader {
+  width: 40%;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+
+.carouselArrow {
+  font-size: 30px;
+  color: var(--base-color);
+}
+
+.rightarrow {
+  position: absolute;
+  font-size: 40px;
+  top: 40%;
+  right: -20px;
+  color: rgba(255, 166, 0, 0.661);
+  cursor: pointer;
+  background-color: white;
+  z-index: 1;
+}
+.leftarrow {
+  position: absolute;
+  font-size: 40px;
+  top: 40%;
+  left: -20px;
+  color: rgb(253, 192, 78);
+  cursor: pointer;
+  background-color: white;
+  z-index: 1;
+}
