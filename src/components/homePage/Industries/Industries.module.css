@@ -1,0 +1,166 @@
+.myArticle {
+  /* border: 2px solid red; */
+  height: 70vh;
+  width: 100%;
+}
+
+.mainDiv {
+  height: 100%;
+  /* border: 2px solid green; */
+}
+
+.head {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 2px solid yellow; */
+}
+.head a {
+  font-weight: bold;
+  color: #ea751c;
+}
+
+.secondDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(9, 19, 219); */
+}
+.secondDiv h1 {
+  font-size: 40px;
+}
+.mainDiv .icOn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  /* border: 2px solid red; */
+}
+.mainDiv .icOn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  /* border: 2px solid red; */
+}
+
+.iconList {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.iconList .travelDiv {
+  padding-left: 10px;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  border: 1px solid rgb(189, 154, 115);
+  width: 250px;
+  height: 70px;
+  border-radius: 40px;
+}
+
+.iconList .travelDiv a {
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.airPlane {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid black; */
+}
+
+.bankIng {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #fff2ec;
+  color: #ff8045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.meDia {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #fff9ea;
+  color: #fdc330;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.hoTel {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #e7f3ec;
+  color: #0b8245;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.healTHcare {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #e6f9ff;
+  color: #09c3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.learNing {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #f9f2fb;
+  color: #c280d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.ecommErce {
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #ffeeee;
+  color: #ff5151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.conTent {
+  font-size: 12px;
+  font-weight: 750;
+  color: #9a6223;
+}
+/* .conTent:hover {
+  color: white;
+} */
+.models {
+  font-size: 25px;
+}

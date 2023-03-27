@@ -41,6 +41,45 @@
   font-weight: 500;
 }
 
+.menuContainer ul li{
+  position: relative;
+}
+
+.menuContainer ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  /* width: 100%; */
+  width: fit-content;
+  top: 17px;
+  /* left: -50%; */
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 2;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.265);
+}
+
+.menuContainer ul li ul li{
+  margin: 10px 0;
+  /* width: max-content; */
+
+}
+
+.menuContainer ul li ul li a{
+  color: rgba(0, 0, 0, 0.704);
+font-size: 11px;
+transition: all .3s ease ;
+width: max-content;
+}
+
+.menuContainer ul li ul li a:hover{
+  color: var(--base-color);
+  transition: all .3s ease ;
+}
+.menuContainer ul li:hover ul{
+  display: block;
+}
+
 .menuContainer ul li a span:first-child {
   background-color: var(--base-color);
   height: 7px;
@@ -100,6 +139,8 @@
 
 .logo {
   flex-basis: 15%;
+  display: grid;
+  place-content: center;
 }
 
 .logo img {

@@ -1,0 +1,136 @@
+.mySection {
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-color: #e6eefb;
+}
+.myArticle {
+  padding: 50px;
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.Div1 {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+.Div1 a {
+  font-weight: bold;
+  font-size: 13px;
+  color: #ea751c;
+}
+
+.Div2 {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  /* border: 2px solid red; */
+}
+.Div2 h1 {
+  color: #a96b34;
+  font-size: 35px;
+}
+
+.Div3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 300px;
+  /* border: 2px solid red; */
+}
+.card {
+  padding: 20px;
+  background-color: white;
+  height: 100%;
+  width: 300px;
+  box-shadow: 1px 1px 1px 1px white;
+  /* border: 2px solid black; */
+}
+
+.card img {
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+}
+.QuoteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -95px;
+  left: 70px;
+  border: 1px solid rgb(201, 195, 195);
+  background-color: white;
+  border-radius: 100%;
+}
+.Quote {
+  color: #ea751c;
+  font-size: 12px;
+}
+.conTent {
+  border-left: 1px solid #ea751c;
+}
+.conTent p {
+  padding-left: 10px;
+  font-size: 13px;
+  color: #ada9a1;
+}
+.lstPara {
+  color: #ada8a1;
+  font-weight: bold;
+  font-size: 10px;
+  padding-top: 10px;
+}
+h1 {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #a96b34;
+}
+.btn {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+}
+.arrOw {
+  font-weight: bold;
+  font-size: 20px;
+  /* color: #ea751c; */
+}
+
+.btn1 a {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid red; */
+  border-radius: 100%;
+}
+
+.btn1 a:hover {
+  background-color: #ea751c;
+  color: white;
+}
+.btn2 a:hover {
+  background-color: #ea751c;
+  color: white;
+}
+
+.btn2 a {
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid red; */
+}

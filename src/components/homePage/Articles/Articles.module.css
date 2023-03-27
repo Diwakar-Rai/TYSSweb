@@ -1,0 +1,103 @@
+.mySection {
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.myArticle {
+  padding: 50px;
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.Div1 {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+.Div1 a {
+  font-weight: bold;
+  font-size: 13px;
+  color: #ea751c;
+}
+
+.Div2 {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  /* border: 2px solid red; */
+}
+.Div2 h1 {
+  color: #a96b34;
+  font-size: 35px;
+}
+
+.Div3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+  /* border: 2px solid red; */
+}
+.card {
+  height: 100%;
+  width: 300px;
+  /* border: 2px solid black; */
+}
+
+.Div3 .card .img {
+  height: 50%;
+  width: 100%;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+}
+.Div3 .card .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.Div3 .card .conTent {
+  /* border: 2px solid red; */
+  height: 50%;
+}
+.p1 {
+  padding-left: 20px;
+  width: 100px;
+  border-left: 1px solid #ea751c;
+}
+.Div3 .card .conTent .para {
+  color: #a7abb2;
+  margin-top: 10px;
+  width: 80%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.Div3 .card .conTent .para strong {
+  color: #ea751c;
+}
+.conTent .head {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.articleButton {
+  background-color: white;
+  color: #d0d3dd;
+  /* width: 130px;
+  height: 27px; */
+  border: 1px solid #d0d3dd;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.btn button:hover {
+  color: white;
+  background-color: #ea751c;
+}

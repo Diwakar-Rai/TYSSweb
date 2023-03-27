@@ -1,0 +1,284 @@
+
+
+.myArticle {
+  width: 100%;
+  /* border: 2px solid red; */
+  background-color: #e6eefb;
+  height: auto;
+}
+
+.myFooterDiv {
+  padding-top: 150px;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+}
+.mycardDiv {
+  padding: 5px;
+  height: 45vh;
+  /* border: 2px solid green; */
+}
+
+.cardDiv {
+  /* padding-left: 280px; */
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  /* border: 2px solid orange; */
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  height: 310px;
+  width: 300px;
+  /* border: 2px solid grey; */
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px #ffff;
+}
+
+.card .lastDivBtn {
+  gap: 10px;
+  display: flex;
+}
+.card p {
+  color: #5e6b8a;
+  font-weight: bold;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .phone {
+  font-size: 25px;
+  color: #266ff2;
+  font-weight: bold;
+}
+
+.card .freeConsultation {
+  color: #266ff2;
+}
+
+.card .scheduleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  width: 180px;
+  background-color: #ea751c;
+  border-radius: 5px;
+}
+.card .scheduleBtn a {
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+}
+
+.card .telegraphPlane {
+  color: #fdc330;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card .request {
+  color: #fdc330;
+}
+
+.card .requestBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  width: 180px;
+  background-color: #ea751c;
+  border-radius: 5px;
+}
+.card .requestBtn a {
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+}
+
+.card .Dialpad {
+  font-size: 25px;
+  font-weight: bold;
+  color: #09c3ff;
+}
+
+.card .HelpDesk {
+  color: #09c3ff;
+}
+
+.lastDivBtn .cgPhone {
+  color: white;
+  font-size: 20px;
+}
+.lastDivBtn {
+  display: flex;
+  align-items: center;
+}
+.lastDivBtn .callBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: #ea751c;
+  /* border: 2px solid red; */
+}
+
+.mycardDiv1 {
+  padding: 5px;
+  height: 45vh;
+  /* border: 2px solid green; */
+}
+
+.mycardDiv1 .cardDiv1 {
+  margin-top: 40px;
+  padding: 20px 0 0;
+  /* padding-left: 280px; */
+  /* gap: 20px; */
+  align-items: center;
+  display: flex;
+  /* border: 2px solid orange; */
+  /* height: 100%; */
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mycardDiv1 .cardDiv1 .Address {
+  width: 240px;
+  display: flex;
+  gap: 15px;
+  /* border: 2px solid red; */
+}
+
+.mycardDiv1 .cardDiv1 .Address p {
+  color: #9198a5;
+  font-size: 14px;
+}
+
+.mycardDiv1 .cardDiv1 .card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 310px;
+  width: 315px;
+  border-bottom: 1px solid #dbe5f5;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+#cardBorder1 {
+  border-right: 1px solid #dbe5f5;
+}
+#cardBorder2 {
+  border-right: 1px solid #dbe5f5;
+}
+
+.mycardDiv1 .cardDiv1 .mail {
+  width: 240px;
+  display: flex;
+  gap: 15px;
+  /* border: 2px solid red; */
+}
+.mycardDiv1 .cardDiv1 .mail1 {
+  text-decoration: none;
+  color: #9198a5;
+}
+.mycardDiv1 .cardDiv1 .card1 .Linkedin {
+  display: flex;
+  gap: 15px;
+  width: 240px;
+  /* border: 2px solid red; */
+}
+.mycardDiv1 .cardDiv1 .card1 .Linkedin a {
+  color: #ea751c;
+  font-size: 15px;
+}
+.mailId {
+  color: #ea751c;
+}
+.location {
+  color: #ea751c;
+}
+/* services style */
+
+.card1 .cardHead {
+  color: #273962;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 35px;
+  /* border: 2px solid red; */
+}
+
+.card1 .list {
+  padding-left: 60px;
+  gap: 15px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+}
+
+.card1 .cardList {
+  gap: 10px;
+  list-style: none;
+  display: flex;
+  /* border: 2px solid red; */
+}
+.card1 .cardList a {
+  font-size: 13px;
+  color: #8b919e;
+  text-decoration: none;
+}
+
+.cardDot {
+  color: #ea751c;
+}
+
+.lastFooter {
+  display: flex;
+  justify-content: space-between;
+  /* height: 100px; */
+  width: 75%;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+}
+.footer {
+  align-items: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.footer p {
+  color: #9298a5;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.iconLast {
+  color: #9298a5;
+  align-items: center;
+  font-size: 13px;
+  gap: 10px;
+  display: flex;
+}
+
+.Onup {
+  color: #9298a5;
+}

@@ -35,10 +35,12 @@ const ServicesCarousel = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 700,
+    speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 3000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
