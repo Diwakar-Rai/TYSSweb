@@ -8,13 +8,13 @@
 }
 
 .myFooterDiv {
-  padding-top: 150px;
+  /* padding-top: 150px; */
   /* border: 2px solid black; */
   margin: 0 auto;
 }
 .mycardDiv {
-  padding: 5px;
-  height: 45vh;
+  padding: 30px 0;
+  /* height: 45vh; */
   /* border: 2px solid green; */
 }
 
@@ -24,7 +24,7 @@
   align-items: center;
   display: flex;
   /* border: 2px solid orange; */
-  height: 100%;
+  /* height: 100%; */
   width: 75%;
   margin: 0 auto;
 }
@@ -137,8 +137,9 @@
 }
 
 .mycardDiv1 {
-  padding: 5px;
-  height: 45vh;
+  padding: 30px;
+  /* height: 45vh; */
+  background: #1b2e59;
   /* border: 2px solid green; */
 }
 
@@ -159,11 +160,12 @@
   width: 240px;
   display: flex;
   gap: 15px;
+  color: #fff;
   /* border: 2px solid red; */
 }
 
 .mycardDiv1 .cardDiv1 .Address p {
-  color: #9198a5;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -173,16 +175,20 @@
   gap: 15px;
   height: 310px;
   width: 315px;
-  border-bottom: 1px solid #dbe5f5;
+  /* border-bottom: 1px solid #dbe5f5; */
   margin-top: 30px;
   padding: 0 20px;
 }
 
+.card1 img{
+  color: white;
+}
+
 #cardBorder1 {
-  border-right: 1px solid #dbe5f5;
+  border-right: 1px solid #dbe5f529;
 }
 #cardBorder2 {
-  border-right: 1px solid #dbe5f5;
+  border-right: 1px solid #dbe5f529;
 }
 
 .mycardDiv1 .cardDiv1 .mail {
@@ -193,7 +199,7 @@
 }
 .mycardDiv1 .cardDiv1 .mail1 {
   text-decoration: none;
-  color: #9198a5;
+  color: #fff;
 }
 .mycardDiv1 .cardDiv1 .card1 .Linkedin {
   display: flex;
@@ -239,7 +245,7 @@
 }
 .card1 .cardList a {
   font-size: 13px;
-  color: #8b919e;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -250,10 +256,11 @@
 .lastFooter {
   display: flex;
   justify-content: space-between;
-  /* height: 100px; */
-  width: 75%;
+  background-color:#1b2e59 ;
+  /* width: 75%; */
   margin: 0 auto;
   /* border: 2px solid blue; */
+
 }
 .footer {
   align-items: center;
@@ -261,14 +268,16 @@
   display: flex;
   justify-content: space-between;
   /* border: 2px solid red; */
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
+  border-top: 1px solid #eeeeee1d;
 }
 .footer p {
-  color: #9298a5;
+  color: #fff;
   font-size: 13px;
   letter-spacing: 1px;
+  
 }
 
 .iconLast {

@@ -2,6 +2,15 @@
     --base-color:#ed7501;
     --base-secondary: #e6eefb;
     --base-tertiary:#09c3ff;
+    --banner-color: #171719;
+    --white: #fff;
+    --header-color: #1b2e59;
+    --royal-blue:#266ff2;
+    --fade-blue:#09c3ff;
+    --dark-green: #023a15;
+    --light-green: #016241;
+    --bright-yellow: #FFEA00;
+    --cadmium-yellow: #FDDA0D;
 }
 *{
     margin: 0;

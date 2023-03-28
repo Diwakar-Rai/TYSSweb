@@ -1,0 +1,98 @@
+.mainDiv {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30%;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+  background-color: rgb(19, 18, 18);
+}
+
+
+.aboutSection {
+  position: relative;
+  left: 150px;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+
+.Head {
+  width: 300px;
+  padding: 20px;
+  /* border: 2px solid yellow; */
+}
+.Head h1 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.aboutLink {
+  color: white;
+  font-size: 12px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border: 2px solid green; */
+}
+.aboutLink a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.aboutLink a:hover{
+  color: #e98438;
+  border-color: #e98438;
+}
+.RightArrow {
+  color: white;
+  font-size: 19px;
+  padding-top: 5px;
+}
+
+
+.imgHead img {
+  border-radius: 100%;
+  /* box-shadow: 0px 0px 1px 1px rgb(219, 137, 15); */
+  width: 350px;
+  height: 350px;
+}
+
+.icon1 {
+  font-size: 19px;
+  position: relative;
+  top: -120px;
+  left: -30px;
+  color: orange;
+}
+.icon2 {
+  font-size: 19px;
+  position: relative;
+  top: 96px;
+  left: -50px;
+  color: orange;
+}
+.icon3 {
+  font-size: 19px;
+  position: relative;
+  top: 10px;
+  right: 110px;
+  color: orange;
+}
+.icon4 {
+  font-size: 19px;
+  position: relative;
+  top: 20px;
+  left: 400px;
+  color: orange;
+}
+.icon5 {
+  font-size: 19px;
+  position: relative;
+  top: 60px;
+  left: 290px;
+  color: orange;
+}
+
+.RightArrow {
+  color: orange;
+}

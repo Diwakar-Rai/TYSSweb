@@ -1,0 +1,185 @@
+.banner {
+  background-color: var(--banner-color);
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  position: relative;
+}
+
+.banner img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+
+.banner section h1 {
+  font-size: 45px;
+  color: var(--white);
+  margin: 10px 0;
+}
+
+.bannerPara {
+  padding-left: 50px;
+}
+
+.banner section p {
+  font-size: 16px;
+  color: var(--white);
+  width: 80%;
+}
+
+.banner aside {
+  color: var(--light-green);
+  font-size: 25px;
+  position: absolute;
+}
+
+.banner .secondIcon {
+  top: 30px;
+  left: 600px;
+}
+.banner .firstIcon {
+  bottom: 10px;
+  left: 500px;
+  font-size: 30px;
+}
+.banner .thirdIcon {
+  top: 80px;
+  right: 300px;
+}
+.banner .fourthIcon {
+  bottom: 40px;
+  right: 200px;
+}
+
+.softwareExp {
+  width: 100%;
+  padding: 70px 0;
+}
+
+/*==============================*/
+
+.softwareExp article{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.softwareExp h2{
+    font-size: 35px;
+    color: var(--header-color);
+    margin-bottom: 20px ;
+    text-align: center;
+}
+
+.softwareExp .upper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.softwareExp .upper article {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-basis: 24%;
+}
+
+.softwareExp .upper article aside:first-child {
+  color: var(--dark-green);
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.softwareExp .upper article aside a {
+  display: grid;
+  place-content: center;
+  margin: 10px 0;
+  color: var(--header-color);
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.softwareExp .upper article aside a:hover {
+  color: var(--light-green);
+  transition: all 0.3s ease;
+}
+
+.softwareExp .upper article aside p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #555;
+}
+
+.softwareExp .lower{
+    display: flex;
+    padding: 50px 0;
+    gap: 5%;
+}
+
+.lower .softLeft{
+    flex-basis: 40%;
+}
+
+.lower .softLeft img{
+    width: 100%;
+    height: 450px;
+    border-radius: 7px;
+}
+
+.lower .softRight{
+    flex-basis: 55%;
+}
+
+.softRight h2{
+    width: 70%;
+    text-align: left;
+    color: var(--header-color);
+}
+
+.softRight button{
+    background-color: var(--light-green);
+    margin: 20px 0;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.softRight button:hover{
+    background-color: var(--dark-green);
+        transition: all .3s ease;
+}
+
+.softRight button a{
+    color: var(--white);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.softRight button a span:last-child{
+    display: grid;
+    place-content: center;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+.softRight button:hover a span:last-child{
+    transform: translateX(10px);
+    transition: all .5s ease;
+}

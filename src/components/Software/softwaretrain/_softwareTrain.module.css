@@ -1,0 +1,134 @@
+.banner {
+  background-color: var(--banner-color);
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0 100px;
+  position: relative;
+}
+
+.banner img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+
+.banner section h1 {
+  font-size: 45px;
+  color: var(--white);
+  margin: 10px 0;
+}
+
+.banner section p {
+  font-size: 16px;
+  color: var(--white);
+  width: 70%;
+}
+
+.banner aside {
+  color: var(--bright-yellow);
+  font-size: 25px;
+  position: absolute;
+}
+
+.banner .firstIcon {
+  top: 30px;
+  left: 150px;
+}
+.banner .secondIcon {
+  bottom: 50px;
+  left: 300px;
+  font-size: 30px;
+}
+.banner .thirdIcon {
+  top: 80px;
+  right: 500px;
+}
+.banner .fourthIcon {
+  bottom: 40px;
+  right: 600px;
+}
+
+/*!==========================*/
+
+.trainingMain{
+    padding: 50px 0;
+}
+
+.trainingBody{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.trainingBody h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+    color: var(--header-color);
+}
+
+.trainingContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7%;
+    border: 1px solid rgba(211, 211, 211, 0.367);
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.trainLeft{
+    flex-basis: 20%;
+    display: grid;
+    place-content: center;
+}
+.trainMiddle{
+    flex-basis: 53%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 10%;
+}
+
+.middleLeft, .middleRight{
+    flex-basis: 45%;
+}
+.trainRight{
+    flex-basis: 20%;
+    display: grid;
+    place-content: center;
+}
+
+
+.trainMiddle ul li a{
+    font-size: 13px;
+    color: #555;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.trainMiddle ul li a:hover{
+    color: var(--header-color);
+    text-decoration: underline;
+}
+
+.trainMiddle ul li a span:first-child{
+    display: grid;
+    place-content: center;
+    margin-right: 5px ;
+    color: var(--cadmium-yellow);
+}
+
+.trainRight button{
+    background: var(--cadmium-yellow);
+    color: var(--header-color);
+    font-weight: bold;
+}

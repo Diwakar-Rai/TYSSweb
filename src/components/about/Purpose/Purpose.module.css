@@ -1,0 +1,77 @@
+.cardPurpose {
+  background-color: #e6eefb;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.purDiv {
+  padding: 20px;
+  width: 45%;
+  /* border: 2px solid black; */
+}
+.testYantra h1 {
+  font-size: 30px;
+}
+.historyIcon {
+  font-size: 40px;
+  color: #e98438;
+}
+.cardPurpose h1 {
+  font-size: 30px;
+}
+.cardPurpose h2 {
+  color: #292828a0;
+  font-size: 19px;
+}
+.cardPurpose p {
+  color: #a1988c;
+}
+
+.about {
+  padding-top: 30px;
+}
+
+.firstDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+}
+.secondDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkDiv a p {
+  background-color: #f3e5db8f;
+  color: #e98438;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.linkDiv h1 {
+  font-size: 30px;
+}
+.conTent {
+  width: 36%;
+}
+.conTent p {
+  font-size: 14px;
+  color: #a1988c;
+}
+
+.secondDiv img {
+  border-radius: 5px;
+  padding: 10px;
+  height: 400px;
+  width: 700px;
+  padding-bottom: 50px;
+}

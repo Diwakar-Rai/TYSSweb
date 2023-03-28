@@ -1,0 +1,127 @@
+.ContactBanner{
+    width: 100%;
+    height: 450px;
+}
+
+.ContactBanner img{
+    width: 100%;
+    height: 450px;
+}
+
+.contactInfo{
+    width: 100%;
+    padding: 60px 0 30px;
+}
+
+.contactInfoBody{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactInfoBody article{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.contactInfoBody article aside:first-child{
+    color: #09c3ff;
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.contactInfoBody article aside a{
+  display: grid;
+  place-content: center;
+  margin: 10px 0;
+
+    font-weight: bold;
+}
+
+.contactInfoBody article aside p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contactFormMain{
+    padding: 30px 0;
+}
+
+.contactFormBody{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHead{
+    margin-bottom: 20px ;
+    font-size: 35px;
+    color: #1b2e59;
+}
+
+.contactFormLower{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contactFormLower article{
+    flex-basis: 50%;
+    height: 500px;
+}
+
+.contactFormLower article img{
+    width: 100%;
+   height: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.contactInfoForm{
+    background-color: #1c85c7;
+    padding: 25px 40px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.formDiv{
+    width: 100%;
+}
+
+.formDiv label{
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.formControl{
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.formButton{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #1b2e59;
+}

@@ -1,9 +1,10 @@
 import React from 'react'
-import './global.css'
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/reusable/navbar/Navbar'
 import Footer from './components/homePage/Footer/Footer';
 import TyssRoutes from './routes/TyssRoutes';
+import FooterBottom from './components/homePage/Footer/FooterBottom';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <TyssRoutes/>
         <Footer />
+        <FooterBottom/>
       </Router>
     </div>
   );

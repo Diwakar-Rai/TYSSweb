@@ -36,14 +36,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 120px;
   /* border: 2px solid red; */
 }
 .mainDiv .icOn1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 100px;
   /* border: 2px solid red; */
 }
 

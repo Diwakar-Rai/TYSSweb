@@ -1,0 +1,38 @@
+
+.firstDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+}
+.secondDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkDiv a p {
+  background-color: #f3e5db8f;
+  color: #e98438;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.linkDiv h1 {
+  font-size: 30px;
+}
+.conTent p {
+  font-size: 14px;
+  color: #a1988c;
+}
+
+.secondDiv video {
+  border-radius: 5px;
+  padding: 60px;
+  height: 400px;
+  width: 60%;
+}
