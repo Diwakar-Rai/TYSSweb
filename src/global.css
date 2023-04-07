@@ -1,5 +1,6 @@
 :root{
     --base-color:#ed7501;
+    --base-light: #f5f8fe;
     --base-secondary: #e6eefb;
     --base-tertiary:#09c3ff;
     --banner-color: #171719;
@@ -28,6 +29,7 @@ button{
     outline: none;
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
 }
 
 ul{

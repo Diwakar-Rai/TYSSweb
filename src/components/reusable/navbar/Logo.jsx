@@ -3,7 +3,7 @@ import logo from "./assets/tylogo.png"
 import Style from './_navbar.module.css'
 const Logo = () => {
   return (
-    <div className={Style.logo}>
+    <div className={Style.logo} id="top">
       <img src={logo} alt="" />
     </div>
   )

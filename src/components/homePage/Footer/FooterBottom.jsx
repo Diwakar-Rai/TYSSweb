@@ -9,7 +9,12 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { IoChevronUp } from "react-icons/io5";
 import tylogo from "./images/tylogo.png";
 import { IoLocationOutline } from "react-icons/io5";
+const handleScrollToTop = () => {
+  window.scrollTo({top:0, behavior:"smooth"})
+}
 const FooterBottom = () => {
+
+  
   return (
     <div>
       <div className={Styles.mycardDiv1}>
@@ -127,11 +132,11 @@ const FooterBottom = () => {
         <div className={Styles.lastFooter}>
           <div className={Styles.footer}>
             <p>©2022 Test Yantra Global. All rights reserved</p>
-            <div className={Styles.iconLast}>
-              <Link>
+          <div className={Styles.iconLast} style={{ cursor: "pointer" }}>
+              <p onClick={handleScrollToTop}>
                 <IoChevronUp className={Styles.Onup} />
-              </Link>
-              <p>Go On Top</p>
+              </p>
+              <p onClick={handleScrollToTop}>Go On Top</p>
             </div>
           </div>
         </div>

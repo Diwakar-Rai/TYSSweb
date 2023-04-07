@@ -1,9 +1,8 @@
-import React from 'react'
-import Style from "./_software.module.css"
-import Software from "../assets/development.jpg"
+import React from "react";
+import Style from "./_software.module.css";
+import Software from "../assets/development.jpg";
 
-import {BiLoaderCircle} from "react-icons/bi"
-import { BiRadioCircle } from "react-icons/bi";
+import { BiLoaderCircle, BiRadioCircle } from "react-icons/bi";
 import { FaCircleNotch } from "react-icons/fa";
 import { IoAtCircleOutline } from "react-icons/io5";
 const SoftwareDevBanner = () => {
@@ -33,6 +32,6 @@ const SoftwareDevBanner = () => {
       </aside>
     </div>
   );
-}
+};
 
-export default SoftwareDevBanner
+export default SoftwareDevBanner;

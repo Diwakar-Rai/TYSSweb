@@ -182,6 +182,7 @@
 
 .card1 img{
   color: white;
+  filter: invert();
 }
 
 #cardBorder1 {

@@ -1,38 +1,93 @@
-import React from "react";
-import { BiChevronDown } from "react-icons/bi";
+import React, { useState, useEffect, useRef } from "react";
+
+import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 import Style from "./_navbar.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import { FcServices } from "react-icons/fc";
-import { FcSupport } from "react-icons/fc";
+import { BsWrenchAdjustable } from "react-icons/bs";
 import { FcConferenceCall } from "react-icons/fc";
 import { FcVoicePresentation } from "react-icons/fc";
-import { FcIdea } from "react-icons/fc";
 import { FcEnteringHeavenAlive } from "react-icons/fc";
-import { MdEventAvailable } from "react-icons/md";
+
 const Menu = () => {
+  let [page, openPage] = useState(false);
+  let [about, openAbout] = useState(false);
+
+  let clickPageRef = useRef(null);
+  let clickAboutRef = useRef(null);
+  let pageRef = useRef(null);
+  let aboutRef = useRef(null);
+
+  useEffect(() => {
+    let handler = e => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (!pageRef.current.contains(e.target)) {
+        openPage(false);
+      }
+      if (!aboutRef.current.contains(e.target)) {
+        openAbout(false);
+      }
+
+      // if (!clickPageRef.current) {
+      //   openPage(true);
+      // }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
+  let handleShow = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    openPage(false);
+    openAbout(false)
+  };
   return (
     <div id={Style.menuContainer}>
-      <ul>
+      <ul className={Style.mainList}>
         <li>
           <Link to="/">
             <span></span>
             <span>Home</span>
-            <span>
+            {/* <span>
               <BiChevronDown />
-            </span>
+            </span> */}
           </Link>
         </li>
-        <li>
+        <li
+          ref={pageRef}
+          onClick={() => {
+            openPage(!page);
+          }}
+        >
           <a href="#">
             <span></span>
             <span>Pages</span>
-            <span>
-              <BiChevronDown />
+            <span className={Style.arrows}>
+              {page ? <BiChevronUp /> : <BiChevronDown />}
             </span>
           </a>
-          <div className={Style.dropDiv}>
-            <ul>
+          {/* className=
+          {(Style.dropDiv = " " + (open ? Style.active : Style.inactive))} */}
+          {/* className={Style.dropDiv} */}
+          <div
+            ref={clickPageRef}
+            onClick={e => {
+              e.preventDefault();
+              e.stopPropagation();
+              openPage(true);
+            }}
+            className={
+              Style.dropDiv + " " + (page ? Style.active : Style.inactive)
+            }
+          >
+            <ul onClick={handleShow}>
               <li>
                 <span className={Style.dropIcon}>
                   <MdOutlineDeveloperMode />
@@ -41,7 +96,7 @@ const Menu = () => {
               </li>
               <li>
                 <span className={Style.dropIcon}>
-                  <FcSupport />
+                  <BsWrenchAdjustable />
                 </span>
 
                 <Link to="/softwareTest">Software Testing</Link>
@@ -59,18 +114,137 @@ const Menu = () => {
                 <Link to="/softwareService">IT Services</Link>
               </li>
             </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <MdOutlineDeveloperMode />
+                </span>
+                <Link to="/softwareDev">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <BsWrenchAdjustable />
+                </span>
+
+                <Link to="/softwareTest">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/softwareTraining">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcServices />
+                </span>
+                <Link to="/softwareService">Lorem Ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <MdOutlineDeveloperMode />
+                </span>
+                <Link to="/softwareDev">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <BsWrenchAdjustable />
+                </span>
+
+                <Link to="/softwareTest">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/softwareTraining">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcServices />
+                </span>
+                <Link to="/softwareService">Lorem Ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <MdOutlineDeveloperMode />
+                </span>
+                <Link to="/softwareDev">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <BsWrenchAdjustable />
+                </span>
+
+                <Link to="/softwareTest">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/softwareTraining">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcServices />
+                </span>
+                <Link to="/softwareService">Lorem Ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <MdOutlineDeveloperMode />
+                </span>
+                <Link to="/softwareDev">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <BsWrenchAdjustable />
+                </span>
+
+                <Link to="/softwareTest">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/softwareTraining">Lorem Ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcServices />
+                </span>
+                <Link to="/softwareService">Lorem Ipsum</Link>
+              </li>
+            </ul>
           </div>
         </li>
-        <li>
+        <li
+          ref={aboutRef}
+          onClick={() => {
+            openAbout(!about);
+          }}
+        >
           <a href="#">
             <span></span>
             <span>About Us</span>
-            <span>
-              <BiChevronDown />
+            <span className={Style.arrows}>
+              {about ? <BiChevronUp /> : <BiChevronDown />}
             </span>
           </a>
-          <div className={Style.dropDiv}>
-            <ul>
+          <div 
+            onClick={e => { e.preventDefault(); e.stopPropagation(); openAbout(true)}}
+            ref={clickAboutRef}
+            className={
+              Style.dropDiv + " " + (about ? Style.active : Style.inactive)
+            }
+          >
+            <ul onClick={handleShow}>
               <li>
                 <span className={Style.dropIcon}>
                   <FcVoicePresentation />
@@ -93,47 +267,103 @@ const Menu = () => {
                 <span className={Style.dropIcon}>
                   <FcConferenceCall />
                 </span>
-                <a href="#">Careers</a>
+                <Link to="/career">Careers</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcVoicePresentation />
+                </span>
+                <Link to="/aboutUs">lorem ipsum</Link>
+              </li>
+
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcEnteringHeavenAlive />
+                </span>
+                <Link to="/mission">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/career">lorem ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcVoicePresentation />
+                </span>
+                <Link to="/aboutUs">lorem ipsum</Link>
+              </li>
+
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcEnteringHeavenAlive />
+                </span>
+                <Link to="/mission">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/career">lorem ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcVoicePresentation />
+                </span>
+                <Link to="/aboutUs">lorem ipsum</Link>
+              </li>
+
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcEnteringHeavenAlive />
+                </span>
+                <Link to="/mission">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/career">lorem ipsum</Link>
+              </li>
+            </ul>
+            <ul onClick={handleShow}>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcVoicePresentation />
+                </span>
+                <Link to="/aboutUs">lorem ipsum</Link>
+              </li>
+
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcEnteringHeavenAlive />
+                </span>
+                <Link to="/mission">lorem ipsum</Link>
+              </li>
+              <li>
+                <span className={Style.dropIcon}>
+                  <FcConferenceCall />
+                </span>
+                <Link to="/career">lorem ipsum</Link>
               </li>
             </ul>
           </div>
         </li>
         <li>
-          <a href="#">
+          <Link to="/caseStudy">
             <span></span>
             <span>Case Studies</span>
-            <span>
+            {/* <span>
               <BiChevronDown />
-            </span>
-          </a>
-          <div className={Style.dropDiv}>
-            <ul>
-              <li>
-                <span className={Style.dropIcon}>
-                  <MdEventAvailable />
-                </span>
-                <a href="#">Case Study 1</a>
-              </li>
-              <li>
-                <span className={Style.dropIcon}>
-                  <MdEventAvailable />
-                </span>
-                <a href="#">Case Study 2</a>
-              </li>
-              <li>
-                <span className={Style.dropIcon}>
-                  <MdEventAvailable />
-                </span>
-                <a href="#">Case Study 3</a>
-              </li>
-              <li>
-                <span className={Style.dropIcon}>
-                  <MdEventAvailable />
-                </span>
-                <a href="#">Case Study 4</a>
-              </li>
-            </ul>
-          </div>
+            </span> */}
+          </Link>
         </li>
         <li>
           <Link to="/contact">

@@ -1,0 +1,245 @@
+.TopNav {
+  background-color: #2a2559;
+  padding: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.CareerNav a {
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border: 2px solid black; */
+  height: 40px;
+}
+.image1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  background-image: url("./images//careeer.avif");
+}
+.mainHaed {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.heading h1 {
+  padding-top: 30px;
+  font-size: 45px;
+  color: white;
+}
+.cardHeading h1 {
+  font-size: 30px;
+  color: #2a2559;
+}
+.cardHeading p {
+  line-height: 1px;
+  color: #452121;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.linkbtn {
+  font-weight: bold;
+  background-color: orange;
+  font-size: 12px;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(231, 127, 10);
+}
+.linkbtn:hover {
+  transition: all 0.5s ease;
+  background-color: #eceded;
+  border-color: #2a2559;
+}
+.cardHeading {
+  margin-top: 60px;
+  background-color: white;
+  height: 400px;
+  width: 70%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.linkPara {
+  border-bottom: 1px solid #2a2559;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2a2559;
+}
+.middleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.middleDiv {
+  padding: 60px;
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
+  width: 50%;
+  /* border: 1px solid green; */
+}
+.middleDiv h1 {
+  color: #2a2559;
+  font-size: 35px;
+}
+.middleDiv p {
+  padding: 5px;
+  font-weight: 500;
+  font-size: 16 px;
+  color: #452121;
+}
+.EmployedIcon {
+  color: #ea751c;
+  font-size: 200px;
+}
+.thirdDiv {
+  background-color: #2a2559;
+  padding: 50px;
+  gap: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.EmployedEmployed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.EmployedEmployed h1 {
+  font-size: 70px;
+  color: #ea751c;
+}
+.EmployedEmployed p {
+  color: #82a0aa;
+}
+.EmployedEmployed h2 {
+  color: white;
+}
+
+.forthDiv {
+  padding-bottom: 40px;
+  padding-top: 50px;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourthDivSec {
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+  border: 1px solid rgb(172, 169, 169);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthDivSec h1 {
+  color: rgb(85, 83, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 700px;
+  border: 1px solid rgb(172, 169, 169);
+}
+.fourthDivSec p {
+  color: #484374;
+}
+.fourthDivSec a {
+  height: 50px;
+  width: 130px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orange;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.fourthDivSec a:hover {
+  transition: all 0.5s ease;
+  background-color: #ea751c;
+  color: white;
+}
+
+.lastDiv {
+  background-color: #2a2559;
+  /* border: 1px solid red; */
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastDiv1 {
+  width: 80%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lastDiv1 h1 {
+  font-family: CircularStd-Book, sans-serif;
+  font-size: 40px;
+  color: #ea751c;
+}
+.lastDiv1 p {
+  font-size: 14px;
+  color: white;
+}
+.lastDiv1 a {
+  color: #ea751c;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 300px;
+  border: 1px solid #ea751c;
+}
+.lastDiv1 a:hover {
+  transition: all 0.5s ease;
+  background-color: #ea751c;
+  color: white;
+}
+.Number1 {
+  font-size: 70px;
+  color: #ea751c;
+}
