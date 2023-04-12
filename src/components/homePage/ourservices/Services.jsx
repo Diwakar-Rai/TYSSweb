@@ -9,10 +9,11 @@ const Services = () => {
           <a href="#">our services</a>
         </section>
         <section className={Style.servicesheader}>
-          <h2>IT solution to your business</h2>
+          <h2>Your partner of choice</h2>
+          <h3>Driving better customer journey</h3>
         </section>
         <section className={Style.servicesCarousel}>
-          <ServicesCarousel/>
+          <ServicesCarousel />
         </section>
         <section className={Style.servicesButton}>
           <button>view all services</button>

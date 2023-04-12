@@ -12,6 +12,7 @@ import { IoMdAnalytics } from "react-icons/io";
 import { GiCyberEye } from "react-icons/gi";
 import { SiPreact } from "react-icons/si";
 import { BsFillCloudFog2Fill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -54,7 +55,9 @@ const ServicesCarousel = () => {
           <h3>Product Engineering</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
       <div className={Style.carouselSec}>
@@ -62,10 +65,12 @@ const ServicesCarousel = () => {
           <MdManageAccounts />
         </section>
         <section className={Style.carouselHeader}>
-          <h3>IT Management</h3>
+          <h3>For Industry</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
       <div className={Style.carouselSec}>
@@ -73,10 +78,12 @@ const ServicesCarousel = () => {
           <IoMdAnalytics />
         </section>
         <section className={Style.carouselHeader}>
-          <h3>Data analytics</h3>
+          <h3>For Technology</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
       <div className={Style.carouselSec}>
@@ -84,10 +91,12 @@ const ServicesCarousel = () => {
           <GiCyberEye />
         </section>
         <section className={Style.carouselHeader}>
-          <h3>Cyber Security</h3>
+          <h3>Enterprise level</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
       <div className={Style.carouselSec}>
@@ -95,10 +104,12 @@ const ServicesCarousel = () => {
           <SiPreact />
         </section>
         <section className={Style.carouselHeader}>
-          <h3>Web development</h3>
+          <h3> Automation Engineering</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
       <div className={Style.carouselSec}>
@@ -106,10 +117,142 @@ const ServicesCarousel = () => {
           <BsFillCloudFog2Fill />
         </section>
         <section className={Style.carouselHeader}>
-          <h3>Cloud Solutions</h3>
+          <h3>Quality Engineering</h3>
         </section>
         <section className={Style.carouselArrow}>
-          <BsArrowRightShort />
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Digital Assurance</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Advisory and Transformations</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>YaNLIB</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Auto Suite</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Test case engine</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Sauce labs</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Smart Bear</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>Fireflink</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>AWS</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
+        </section>
+      </div>
+      <div className={Style.carouselSec}>
+        <section className={Style.carouselIcon}>
+          <BsFillCloudFog2Fill />
+        </section>
+        <section className={Style.carouselHeader}>
+          <h3>ATDXT</h3>
+        </section>
+        <section className={Style.carouselArrow}>
+          <Link to="/">
+            <BsArrowRightShort />
+          </Link>
         </section>
       </div>
     </Slider>

@@ -1,7 +1,9 @@
 .newsletterMain {
   width: 100%;
-  position: relative;
-  top: 80px;
+  /* background: var(--base-secondary); */
+  /* position: relative; */
+  /* top: 80px; */
+  padding-bottom: 30px;
 }
 
 .newsletterBody {

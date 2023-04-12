@@ -4,7 +4,7 @@
 
 .teamMain {
   background-color: #e6eefb;
-  padding: 50px 0;
+  padding-bottom: 50px ;
 }
 
 .teamContainer {
@@ -82,7 +82,7 @@
 \*==============================*/
 
 .bottomTeam {
-  padding: 100px 0 30px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,7 +177,7 @@
 .descHeader h2 {
   font-size: 35px;
   width: 75%;
-  margin: 15px 0;
+  margin: 35px 0 15px;
 }
 
 .descPara p {
@@ -205,4 +205,83 @@
   color: var(--base-color);
   display: grid;
   place-content: center;
+}
+
+/*==============================*\
+    #Team Stats
+\*==============================*/
+
+.statsMain{
+  position: relative;
+}
+.statsOverlay{
+  background-image: url("./assets/crowd.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+    filter: blur(3px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    z-index: 1;
+}
+
+.statsContainer{
+  position: relative;
+  z-index: 2;
+  background-color: #00000090;
+  padding: 50px 0;
+}
+
+.statUpper, .statMiddle, .statButton, .statLower{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statNumber{
+flex-basis: 30%;
+display: grid;
+place-content: center;
+padding: 10px 0;
+}
+
+.statNumber p{
+  color: white;
+  text-align: center;
+}
+
+.statMiddle{
+  margin: 20px auto;
+  font-weight: bolder;
+}
+.statMiddle span{
+  flex-basis: 30%;
+  color: var(--base-color);
+  font-size: 30px;
+}
+
+.statMiddle span p{
+  text-align: center;
+}
+
+.statMiddle span:first-child, .statMiddle span:last-child{
+  /* background-color: rgba(255, 255, 255, 0.597);
+  height: 1px; */
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0 100% 100% 0;
+}
+
+.statButton{
+  margin: 20px auto;
+}
+
+.statsContainer article p:first-child{
+  font-size: 30px;
 }

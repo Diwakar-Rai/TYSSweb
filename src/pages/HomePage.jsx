@@ -3,12 +3,13 @@ import Banner from './../components/homePage/banner/Banner';
 import Team from './../components/homePage/team/Team';
 import Services from './../components/homePage/ourservices/Services';
 import Workflow from './../components/homePage/workflow/Workflow';
-import CaseStudies from './../components/homePage/caseStudy/CaseStudies';
+// import CaseStudies from './../components/homePage/caseStudy/CaseStudies';
 import Newsletter from './../components/homePage/newsletter/Newsletter';
 import Service from './../components/homePage/ServiceFolder/Service';
 import Industries from './../components/homePage/Industries/Industries';
 import Testimonials from './../components/homePage/Testimonials/Testimonials';
 import Articles from './../components/homePage/Articles/Articles';
+import NewCareer from '../components/Career/NewCareer';
 
 const HomePage = () => {
   return (
@@ -17,12 +18,13 @@ const HomePage = () => {
       <Team />
       <Services />
       <Workflow />
-      <CaseStudies />
-      <Newsletter />
+      {/* <CaseStudies /> */}
+      {/* <Newsletter /> */}
       <Service />
       <Industries />
-      <Testimonials />
-      <Articles />
+      <NewCareer/>
+      {/* <Testimonials /> */}
+      {/* <Articles /> */}
     </div>
   );
 }

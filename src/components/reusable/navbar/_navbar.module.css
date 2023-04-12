@@ -1,8 +1,12 @@
 .navbarContainer {
-  /* height: 70px; */
+  height: 100px;
   background-color: white;
   width: 100%;
   position: relative;
+  box-shadow: 1px -2px 4px #111111b5;
+  z-index: 300;
+  display: grid;
+  place-content: center;
 }
 
 .navbarBody {

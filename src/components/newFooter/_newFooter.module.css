@@ -1,0 +1,84 @@
+.bottomFooterMain {
+  background: #000;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.bottomFooterContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bfLogo {
+  flex-basis: 20%;
+}
+
+.bfLogo img {
+  width: 100%;
+  filter: invert(1);
+}
+
+.bfSocial {
+  flex-basis: 15%;
+}
+
+.socialChild a {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* .facebook{
+    color: royalblue;
+}
+
+.youtube{
+    color: red;
+}
+
+.twitter{
+    color: rgb(6, 204, 253);
+}
+
+.linkedin{
+    color: royalblue;
+} */
+
+.bfPara p,
+.goto p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.goto {
+  cursor: pointer;
+}
+
+/*================================*\
+    # Footer Top
+\*================================*/
+
+.footerTopMain {
+  background-color: #1e2222;
+  padding: 20px 0;
+}
+
+.footerTopMain h3 {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.footerList li {
+  margin: 10px 0;
+}
+
+.footerList a {
+  color: #999;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.footerList a:hover {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+

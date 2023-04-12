@@ -44,3 +44,17 @@ a{
     text-transform: uppercase;
 }
 
+button a{
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4{
+    color: var(--header-color);
+}
+

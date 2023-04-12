@@ -5,12 +5,13 @@ const VideoPlay = () => {
   return (
     <div className={Style.videoSection}>
       <article>
-        <h1>Professional IT for private individuals and Companies</h1>
+        <h1>Assurance for a sustainable impact</h1>
       </article>
       <article className={Style.videoLast}>
-        <aside className={Style.videoLastAside}>
+        {/*================= dont need as of now*======================/}
+        {/* <aside className={Style.videoLastAside}>
           <button>Our Services</button>
-        </aside>
+        </aside> */}
         <aside className={Style.playButtonBlock}>
           <span className={Style.playButton}>
             <AiFillPlayCircle />

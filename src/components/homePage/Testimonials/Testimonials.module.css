@@ -1,12 +1,12 @@
 .mySection {
-  height: 90vh;
+  /* height: 90vh; */
   width: 100%;
   /* border: 2px solid red; */
   background-color: #e6eefb;
 }
 .myArticle {
   padding: 50px;
-  height: 90vh;
+  /* height: 90vh; */
   width: 100%;
   /* border: 2px solid green; */
 }
